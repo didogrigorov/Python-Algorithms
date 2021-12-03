@@ -1,5 +1,10 @@
-data = [5,1,4,9,3,11,8,10,12,2,4,6,7]
+data = []
 
+user = int(input("Enter number of elements : "))
+for i in range(0, user):
+    ele = int(input())
+    data.append(ele)
+    
 for scanIndex in range(0,len(data)):
   minIndex = scanIndex
   for compIndex in range(scanIndex + 1, len(data)):
